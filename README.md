@@ -9,6 +9,6 @@ Call from remote yml with tag:
   hosts: all
   become: true
   roles:
-    - { role: require1 }  
+    \- { role: require1 }  
   tags: test
 
