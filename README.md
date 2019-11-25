@@ -6,9 +6,9 @@ ansible-galaxy install -r requirements.yml
 Call from remote yml with tag:  
 
 \- name: call require1 role <br>
-   &nbsp;hosts: all <br>
-   &nbsp;become: true <br>
-   &nbsp; roles: <br>
-   &nbsp;&nbsp;&nbsp;\- { role: require1 }  <br>
-   &nbsp;tags: test <br>
+   &nbsp;&nbsp;hosts: all <br>
+   &nbsp;&nbsp;become: true <br>
+   &nbsp;&nbsp;roles: <br>
+   &nbsp;&nbsp;&nbsp;&nbsp;\- { role: require1 }  <br>
+   &nbsp;&nbsp;tags: call_require1 <br>
 
