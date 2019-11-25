@@ -1,4 +1,4 @@
-#command to install roles from a requirements file \n
+#command to install roles from a requirements file <br>
 #(make sure you have tasks and meta folder and the file should be in roles folder):
 
 ansible-galaxy install -r requirements.yml
